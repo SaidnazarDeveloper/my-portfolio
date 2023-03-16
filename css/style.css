@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+.list {
+    display: flex;
+    gap: 30px;
+
+}
+
+/* ===========================================header start=======================================    */
+header {
+    padding-top: 100px;
+}
+
+.personal_info {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    color: #21243D;
+}
+
+.info_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #21243D;
+    padding-top: 30px;
+}
+
+.btn_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 21px;
+    margin-top: 30px;
+}
+
+
+
+
+/* Section start */
+
+.post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 100px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.post li:hover {
+    color: red;
+}
+
+.card {
+    padding: 21px 23px;
+}
+
+.card h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+
+}
+
+.row {
+    justify-content: space-between;
+}
+
+
+
+.ali h2 {
+    padding-top: 50px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+
+.ali p {
+    margin-top: 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.alik {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    padding: 5px 10px;
+    background: #142850;
+    border-radius: 16px;
+    color: #FFFFFF;
+}
+
+
+.dawt {
+     padding-left: 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.alt_shift{
+    padding-top: 50px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.fa-brands {
+    font-size: 40px;
+    color: black;
+}
+
+.faer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.copy {
+    margin-top: 30px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
